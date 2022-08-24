@@ -502,7 +502,7 @@
         <form class="form-footer">
           <div class="sing-up-form">
             <label for="sing-up" class="sing-up-lable">Підпишіться на розсилку</label>
-            <input type="mail" name="mail" id="sing-up" class="sing-up-input">
+            <input type="mail" name="mail" id="sing-up" class="sing-up-input" placeholder="E-mail">
           </div>
           <button type="submit" class="sign-up-button">Підписатися
             <svg class="sing-up-icon" width="24" height="24" >
@@ -513,7 +513,7 @@
       </div>
     </footer>
     <!---------- Модальне вікно----is-hidden-----> 
-    <div class="backdrop " data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="modal-close-icon" width="18" height="18" >
@@ -556,20 +556,19 @@
             <label for="user-text" class="user-text-lable">Коментар</label>
             <textarea name="user-text" id="user-text" class="user-text-area" placeholder="Введіть текст"></textarea>
           </div>
-          <!-- <div class="checkbox-link"> -->
             <div class="modal-field">
             <input type="checkbox" name="user-check" id="user-check" class="user-check-input visually-hidden">
             <label for="user-check" class="user-check-lable">
               <span>
-                <svg class="check-icon">
-                  <use href="./images/icons.svg#check" width="16" height="15"/>
+                <svg class="check-icon" width="16" height="15">
+                  <use href="./images/icons.svg#check"/>
                 </svg>
               </span>
-            Погоджуюся з розсилкою та приймаю <a href="" class="agreement-link">Умови договору</a> </label>
+            Погоджуюся з розсилкою та приймаю <a href="" class="agreement-link">&#8287;Умови договору</a> </label>
           </div>
-          
-          <!-- </div> -->
-          <button type="submit" class="modal-button">Відправити</button>
+          <div class="modal-button-centered">
+            <button type="submit" class="modal-button">Відправити</button>
+          </div>
         </form>
       </div>
     </div>
