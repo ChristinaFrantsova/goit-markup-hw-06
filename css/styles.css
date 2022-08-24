@@ -685,9 +685,6 @@ img {
 }
 
 .sign-up-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   /* position: absolute;
   top: 13px;
   left: 10px;
