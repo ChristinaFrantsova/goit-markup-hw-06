@@ -583,7 +583,7 @@ img {
 .footer-soc-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.23px;
+  line-height: 1.23;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
@@ -960,8 +960,6 @@ img {
 /* Button */
 
 .button.all {
-  display: inline-block;
-  padding: 0px 25px;
   background-color: var(--accent-color);
   color: var(--primery-white-color);
 }
@@ -986,7 +984,7 @@ img {
   border-radius: 4px;
   padding: 0px 22px;
   margin-bottom: 50px;
-
+  height: 38px;
   min-width: 73px;
   border: solid transparent;
 }
