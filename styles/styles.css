@@ -442,6 +442,7 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: var(--primery-white-color);
+  border-radius: inherit;
 }
 
 .team-soc-list {
@@ -960,7 +961,9 @@ img {
 
 .button.all {
   display: inline-block;
-  padding: 6px 25px;
+  padding: 0px 25px;
+  background-color: var(--accent-color);
+  color: var(--primery-white-color);
 }
 
 .button {
@@ -981,7 +984,7 @@ img {
   text-align: center;
 
   border-radius: 4px;
-  padding: 6px 22px;
+  padding: 0px 22px;
   margin-bottom: 50px;
 
   min-width: 73px;
@@ -1000,7 +1003,7 @@ img {
   justify-content: center;
 }
 
-.list .item:not(:last-child) {
+.button-item:not(:last-child) {
   margin-right: 8px;
 }
 
