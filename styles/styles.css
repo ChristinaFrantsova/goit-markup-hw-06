@@ -774,6 +774,12 @@ img {
   margin-bottom: 10px;
 }
 
+.checkbox-fild {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .user-name-lable,
 .user-tel-lable,
 .user-mail-lable,
@@ -916,6 +922,8 @@ img {
   justify-content: center;
   align-items: center;
   margin-right: 8px;
+  position: relative;
+  top: 2px;
 }
 
 .check-icon {
